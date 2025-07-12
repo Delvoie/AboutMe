@@ -5,7 +5,7 @@
     <title>Responsive Portfolio Website</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Add FontAwesome CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -71,16 +71,136 @@
 <!-- about section -->
 <section class="about" id ="about">
     <div class="content">
-        <h1>About Me</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        <div class="skills">
-            <div class="skill">HTML</div>
-            <div class="skill">CSS</div>
-            <div class="skill">JavaScript</div>
-            <div class="skill">React</div>
+        <div class="title">
+                <span>About Me</span>
+        </div>
+        <div class="about-details">
+            <div class="left">
+                <img src="Assets/about.jpg" alt="">
+            </div>
+            <div class="right">
+                <div class="topic">
+                    Computer Programming is my Passion
+                </div>
+                <p>
+                    I am a web developer with a passion for creating dynamic and responsive websites. I have experience in HTML, CSS, JavaScript, and various frameworks. My goal is to build user-friendly applications that provide a great user experience.
+                </p>
+                <div class="button">
+                    <button>Read More About Me</button>
+                </div>
+            </div>
         </div>
     </div>
 </section>
+
+<!-- skills section -->
+<section class="skills" id="skills">
+    <div class="content">
+        <div class="title"><span>My Skills</span></div>
+        <div class="skills-details">
+            <div class="text">
+                <div class="topic">
+                    Skills Reflects our Knowledge
+                </div>
+                <p data-aos="fade-right">
+                    I have honed my skills in various programming languages and technologies. My expertise includes front-end development with HTML, CSS, and JavaScript, as well as back-end development using Node.js and databases like MongoDB.
+                </p>
+                <div class="experience">
+                    <div class="num">3</div>
+                    <div class="exp">
+                        Years of <br/>
+                        Experience
+                    </div>
+            </div>
+        </div>
+        <div class="boxes">
+            <div class="box">
+                <div class="topic"> HTML </div>
+                <div class="per">90%</div>
+                </div>
+                <div class="topic"> CSS </div>
+                <div class="per">85%</div>
+                    <div class="topic"> JavaScript </div>
+                    <div class="per">70%</div>
+                    </div>
+                <div class="topic"> React</div>
+                <div class="per">65%</div>
+            </div>
+        </div>
+
+</section>
+<!-- services section -->
+<section class="services" id="services">
+    <div class="content">
+        <div class="title"><span>My Services</span></div>
+        <div class="boxes">
+            <div class="box">
+                <div class="icon">
+                    <i class="fa-solid fa-desktop"></i>
+                </div>
+                <div class="topic">Web Development</div>
+                <p>
+                    I am a college student and aspiring web developer
+            </div>
+            <div class="box">
+                <div class="icon">
+                    <i class="fa-solid fa-mobile-screen"></i>
+                </div>
+                <div class="topic">Mobile App Development</div>
+                <p>
+                    I create mobile applications that are user-friendly and efficient.
+                </p>
+            </div>
+            <div class="box">
+                <div class="icon">
+                    <i class="fa-solid fa-paintbrush"></i>
+                </div>
+                <div class="topic">UI/UX Design</div>
+                <p>
+                    I design user interfaces that are visually appealing and easy to navigate.
+                </p>
+            </div>
+            <div class="box">
+                <div class="icon">
+                    <i class="fa-solid fa-cloud"></i>
+                </div>
+                <div class="topic">Cloud Services</div>
+                <p>
+                    I provide cloud solutions that enhance scalability and performance.
+                </p>
+            </div>
+            <div class="box">
+                <div class="icon">
+                    <i class="fa-solid fa-database"></i>
+                </div>
+                <div class="topic">Database Management</div>
+                <p>
+                    I manage databases to ensure data integrity and security.
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Contact section -->
+<section class="contact" id="contact">
+<div class="content">
+    <div class="title">
+        <span>Contact Me</span>
+    </div>
+    <div class="text">
+        <div class="topic"> Let's Connect</div>
+        <p>
+            If you have any questions or would like to discuss a project, feel free to reach out to me. I am always open to new opportunities and collaborations.
+        </p>
+        <button>Contact Me</button>
+        </div>
+    </div>
+</section>
+<!-- Footer section -->
+<footer>
+    <div class="text">
+        <span>© 2025 Lucas Delvoie. All rights reserved.</span>
+    </div>
+</footer>
 
 </body>
 </html>
